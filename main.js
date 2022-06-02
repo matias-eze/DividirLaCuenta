@@ -1,7 +1,7 @@
 const app = new Vue ({
     el:'#app',
     data: {
-        titulo: 'Dividir la Cuenta v2.1',
+        titulo: 'Dividir la Cuenta',
         id: 0,
         total: 0,
         totalPersona: 0,
