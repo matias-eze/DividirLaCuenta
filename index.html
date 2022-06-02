@@ -10,9 +10,9 @@
     <title>Dividir la Cuenta</title>
 </head>
 <body>
-    <div class="form--container container mt-5"  id="app">
+    <div class="form--container container mt-5" style="min-height: 600px" id="app">
         <h1>{{titulo}}</h1>
-        <input type="text" placeholder="¿Quien puso?" id="persona" class="form-control my-3" style="min-height: 600px" v-model="entrada.nombre">
+        <input type="text" placeholder="¿Quien puso?" id="persona" class="form-control my-3" v-model="entrada.nombre">
         <input type="text" placeholder="¿Para que puso?" id="concepto" class="form-control my-3" v-model="entrada.concepto">
         <input type="text" placeholder="¿Cuanto puso?" id="monto" class="form-control my-3" v-model="entrada.monto" v-on:keyup.enter="agregarEntrada">
         <button @click="agregarEntrada" id="agregar" class="btn btn-primary mt-3" >Agregar Entrada</button>
