@@ -1,0 +1,19 @@
+@media screen and (max-height: 750px){
+    .form--container {
+        min-height: 500px;
+    }
+}
+.footer {
+    min-width: 100%; 
+    border-radius: 0px;
+}
+
+@media screen and (min-height: 750px){
+    .footer {
+        position: absolute;
+        bottom: 0px;
+    }
+    .form--container{
+        min-height: auto;
+    }
+}
